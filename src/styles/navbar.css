@@ -1,0 +1,32 @@
+.title{
+    left: 50px;
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #eaeaeb;
+    height: 70px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+a{ 
+    margin: 2px;
+    padding: 21px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.berger-menu{
+    float: right;
+    display: none;
+}
+
+@media only screen and (max-width: 425px){
+    .nav-container{
+        display: none;
+    }
+}
