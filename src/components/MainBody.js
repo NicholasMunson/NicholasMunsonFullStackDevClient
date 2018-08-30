@@ -4,7 +4,9 @@ import Projects from "./Projects.js"
 import Contact from "./Contact.js"
 import Landing from "./Landing.js"
 
+
 class MainBody extends Component{
+    
 
     change(display) {
         switch(this.props.display){
@@ -15,6 +17,7 @@ class MainBody extends Component{
         }
     }
     render(){
+        console.log(this.props)
         let displaySwitch = this.change(this.props.display)
         console.log(this.props.display)
         return(

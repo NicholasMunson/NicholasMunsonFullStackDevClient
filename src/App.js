@@ -6,10 +6,10 @@ import MainBody from '../src/components/MainBody.js'
 class App extends Component {
   constructor(props){
     super(props)
-    this.setState=({
+    this.state = {
       display:"",
     
-    })
+    }
   }
 
   handleSwitch = () => {
@@ -18,11 +18,12 @@ class App extends Component {
 
 
   render() {
-    let display = this.props.display
+    let display = this.state
+    console.log(this.state)
     return (
       <div className="App"> 
       <Navbar handleSwitch={this.handleSwitch}  />
-      {/* <MainBody handleSwitch={this.handleSwitch} display={display} /> */}
+      <MainBody handleSwitch={this.handleSwitch} display={display} />
       </div>
     );
   }
