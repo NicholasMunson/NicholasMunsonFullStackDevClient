@@ -7,7 +7,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      display:"",
+      display:"B",
     
     }
   }
@@ -18,8 +18,7 @@ class App extends Component {
 
 
   render() {
-    let display = this.state
-    console.log(this.state)
+    let display = this.state.display
     return (
       <div className="App"> 
       <Navbar handleSwitch={this.handleSwitch}  />

@@ -5,10 +5,13 @@ import Contact from "./Contact.js"
 import Landing from "./Landing.js"
 
 
-class MainBody extends Component{
-    
 
-    change(display) {
+class MainBody extends Component{
+    constructor(props){
+        super(props)
+    }
+
+    switch = () => {
         switch(this.props.display){
             case "A": return <About />
             case "B": return <Projects />
@@ -16,10 +19,9 @@ class MainBody extends Component{
             default : return <Landing />
         }
     }
+
     render(){
-        console.log(this.props)
-        let displaySwitch = this.change(this.props.display)
-        console.log(this.props.display)
+        let displaySwitch = this.switch(this.props.display)
         return(
             <div>
                 {displaySwitch}
