@@ -7,9 +7,6 @@ import Landing from "./Landing.js"
 
 
 class MainBody extends Component{
-    constructor(props){
-        super(props)
-    }
 
     switch = () => {
         switch(this.props.display){
