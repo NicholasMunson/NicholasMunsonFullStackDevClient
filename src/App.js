@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
+import { BrowserRouter as Router, Route } from "react-router-dom"
 import './App.css';
 import Navbar from '../src/components/Navbar.js'
 import About from '../src/components/About.js'
 import Projects from '../src/components/Projects.js'
 import Contact from '../src/components/Contact.js'
-import MainBody from '../src/components/MainBody.js'
-import { BrowserRouter as Router, Route } from "react-router-dom"
+
 class App extends Component {
     constructor(props) {
         super(props)

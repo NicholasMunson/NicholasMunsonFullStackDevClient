@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { BrowserRouter as Router, Link, Route } from "react-router-dom"
+import { BrowserRouter as Router, Link } from "react-router-dom"
 import "../styles/navbar.css"
 import About from "./About.js"
 class Navbar extends Component {
@@ -9,12 +9,12 @@ class Navbar extends Component {
         return(
             <Router>    
                 <div className="header-container"> 
-                    <Link to="/" className="title, text" onClick={()=>{displaySwitch("")}} >Nicholas Munson</Link>
+                    <Link to="/" className="title, text">Nicholas Munson</Link>
                     <div className="menu"> 
                         <div className="nav-container">
-                            <Link  className="text" to="/About" onClick={()=>{displaySwitch("A")}}>About</Link>
-                            <Link  className="text" to="/Projects" onClick={()=>{displaySwitch("B")}}>Projects</Link>
-                            <Link  className="text" to="/Contact" onClick={()=>{displaySwitch("C")}} >Contact</Link>
+                            <Link  className="text" to="/About">About</Link>
+                            <Link  className="text" to="/Projects">Projects</Link>
+                            <Link  className="text" to="/Contact" >Contact</Link>
                         </div>
                     </div>
                 </div>
