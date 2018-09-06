@@ -6,25 +6,20 @@ import About from '../src/components/About.js'
 import Projects from '../src/components/Projects.js'
 import Contact from '../src/components/Contact.js'
 
+
 class App extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            display: ""
         }
     }
-
-    handleDisplaySwitch = (change) => {
-        this.setState({display: `${change}`})
-
-    }
-
+  
     render() {
         return (
             <Router>
               <div className="App">
-                  <Route path="/" component={Navbar}/>
-                  <Route exact path="/About" component={ () => ( <About />)}/>
+                  <Navbar />
+                  <Route exact path="/About" component={About}/>
                   <Route path="/Projects" component={Projects}/>
                   <Route path="/Contact" component={Contact}/>
               </div>
