@@ -20,13 +20,11 @@ class App extends Component {
     }
 
     render() {
-        let display = this.state.display
-        let displaySwitch = this.handleDisplaySwitch
         return (
             <Router>
               <div className="App">
                   <Route path="/" component={Navbar}/>
-                  <Route path="/About" component={About}/>
+                  <Route exact path="/About" component={ () => ( <About />)}/>
                   <Route path="/Projects" component={Projects}/>
                   <Route path="/Contact" component={Contact}/>
               </div>
