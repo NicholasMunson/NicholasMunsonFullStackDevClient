@@ -4,7 +4,7 @@ import "../styles/about.css"
 function About(props){
 return(
     <div className="bio-body">
-        <img className="hero-image" src={require("../images/imageedit_3_4072812862.jpg")}/>
+        <img className="hero-image" src={require("../images/imageedit_3_4072812862.jpg")} alt="keyboard" />
         <h1 className='title'>Nicholas Munson Bio</h1>
         <h3>Bio.Summery</h3>
         <p className="paragraph">After many years in the restaurant business and earning an Associates Degree in Communications, 
@@ -52,19 +52,17 @@ return(
         filling out applications, and finding freelance work with learning new languages. 
         I am currently learning a few new languages and getting a refresher on some others from the list below.
         </p>
-        <div className="concept-list">
-            <ul>
+        <div>
+            <ul className="li-list">
                 <li>Java</li>
                 <li>Python</li>
                 <li>PHP</li>
-            </ul>
-            <ul>
                 <li>Webkit</li>
                 <li>SaaS</li>
                 <li>MERN stack</li>
             </ul>
         </div>
-        <img className="hero-image" src={require("../images/imageedit_6_8426369842.jpg")}/>
+        <img className="hero-image" src={require("../images/imageedit_6_8426369842.jpg")} alt="DJ equipment" />
         <h3>Bio.Life_Outside_Coding</h3>
         <p className="paragraph">
         Outside of coding I enjoy many things and have lots of hobbies. I have a family consisting of an amazing women named Hannah that somehow
@@ -91,16 +89,40 @@ return(
                 <li>In the future I would like to start blogging and podcasting</li>
             </ul>
         </div>
-        <img className="hero-image" src={require("../images/imageedit_9_7830771010.jpg")}/>
+        <img className="hero-image" src={require("../images/imageedit_9_7830771010.jpg")} alt="handshake"  />
         <h3>Bio.Why_you_should_hire_me</h3>
         <p className="paragraph ">
-            Are you looking for an adaptable, moldable, fun, hard working, self motivated, problem solving, JavaScript loving developer?... because that's me. 
-            I am eager to learn and code in a professional setting. I want to learn from those with more experience, so I can return the favor in a few years.
-            I love writing, building, fixing bugs, automating tests, but most of all learning. I love the community of Developers
-            in my home town of Denver and I hope to be one of the employed Devs soon. So this is my plea to you, Oh hiring one, I am just a guy
-            that loves to code and is waiting and looking for my first break into the tech world. let us build something together that is beautiful, amazing, and most of all, something that is dynamic!
+            Are you looking for a moldable, fun, hard working, self motivated, JavaScript 
+            loving developer?... because that's me. 
+            There is more to me than just my tech chops. I also offer many soft skills that 
+            I have picked up over the years from my work in the service industry, and from my studies of communications.
+            These skills include, but are not limited to...
         </p>
-        <img className="hero-image" src={require("../images/imageedit_7_7468252971.jpg")}/>
+        <div className="concept-list">
+            <ul>
+                <li>Communication (written and spoken)</li>
+                <li>Teamwork</li>
+                <li>Loyalty</li>
+                <li>Empathy</li>
+                <li>Patience</li>
+                <li>Understanding</li>
+                <li>Open-Mindedness</li>
+            </ul>
+            <ul>
+                <li>Accountability</li>
+                <li>Personal Responsibility</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+                <li>Problem solving</li>
+                <li>Highly Coachable</li>
+                <li>Sarcastic (when appropriate)</li>
+            </ul>
+        </div>
+        <p className="paragraph ">
+            Combining these soft skills with my tech chops I believe that I would be a valuable asset to any company willing 
+            to take a chance on me. So lets build something big, something amazing, and something dynamic! I look forward to hearing from you!
+        </p>
+        <img className="hero-image" src={require("../images/imageedit_7_7468252971.jpg")} alt="team puts their fists in to celebrate" />
     </div>
 
 )

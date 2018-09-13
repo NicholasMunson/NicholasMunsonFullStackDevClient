@@ -6,9 +6,21 @@
     text-align: center;
 }
 
-.concept-list{
+.concept-list {
     display: flex;
     justify-content: center;
+}
+
+.concept-list-horizontal{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.li-list{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .hero-image{
