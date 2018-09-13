@@ -52,12 +52,16 @@ return(
         filling out applications, and finding freelance work with learning new languages. 
         I am currently learning a few new languages and getting a refresher on some others from the list below.
         </p>
-        <div>
+        <div className="learning-list">
             <ul className="li-list">
                 <li>Java</li>
                 <li>Python</li>
+            </ul>
+            <ul className="li-list">
                 <li>PHP</li>
                 <li>Webkit</li>
+            </ul>
+            <ul className="li-list">
                 <li>SaaS</li>
                 <li>MERN stack</li>
             </ul>
