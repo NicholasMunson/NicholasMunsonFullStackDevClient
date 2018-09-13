@@ -13,16 +13,16 @@ class App extends Component {
         this.state = {
         }
     }
-  
+
     render() {
         return (
             <Router>
-              <div className="App">
-                  <Navbar />
-                  <Route exact path="/About" component={About}/>
-                  <Route path="/Projects" component={Projects}/>
-                  <Route path="/Contact" component={Contact}/>
-              </div>
+            <div className="App">
+                <Navbar />
+                <Route exact path="/Bio" component={About}/>
+                <Route path="/Projects" component={Projects}/>
+                <Route path="/Contact" component={Contact}/>
+            </div>
             </Router>
         );
     }

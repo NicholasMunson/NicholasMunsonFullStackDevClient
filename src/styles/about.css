@@ -1,0 +1,16 @@
+.bio-body{
+    padding: 1%  10%;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+.concept-list{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image{
+    width: 100%;
+}
