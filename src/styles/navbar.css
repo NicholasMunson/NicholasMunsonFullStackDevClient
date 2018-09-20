@@ -7,6 +7,7 @@
     justify-content: space-between;
     border-bottom: 1px solid #eaeaeb;
     height: 70px;
+    padding: 0 10%
 }
 .nav-container{
     display: flex;
@@ -14,9 +15,14 @@
     text-align: right;
 }
 
+#nm-logo{
+    height: 54px;
+    margin: 10px 0px;
+}
+
 .a-text{ 
     margin: 2px;
-    padding: 21px;
+    padding: 21px 0 0 21px;
     font-size: 2rem;
     text-decoration: none;
 }
