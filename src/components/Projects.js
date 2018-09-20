@@ -3,7 +3,7 @@ import "../styles/projects.css"
 
 function Projects (props) {
     return(
-        <div className="projects-container">
+        <div className="body">
             <p>Hello from the Projects section</p>
             <p>Hello from the Projects section</p>
             <p>Hello from the Projects section</p>

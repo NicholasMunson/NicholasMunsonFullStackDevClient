@@ -3,7 +3,7 @@ import "../styles/about.css"
 
 function About(props){
 return(
-    <div className="bio-body">
+    <div className="body">
         <img className="hero-image" src={require("../images/imageedit_3_4072812862.jpg")} alt="keyboard" />
         <h1 className='title'>Nicholas Munson Bio</h1>
         <h3>Bio.Summery</h3>

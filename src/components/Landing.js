@@ -3,7 +3,7 @@ import '../styles/landing.css'
 
 function Landing(props){
 return(
-    <div className="landing-container">
+    <div className="body">
         <p>Hello from the Landing section</p>
         <p>Hello from the Landing section</p>
         <p>Hello from the Landing section</p>
