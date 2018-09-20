@@ -12,6 +12,10 @@
     justify-content: center;
 }
 
+.concept-list-1{
+    padding-top: 65px;
+}
+
 .learning-list{
     display: flex;
     justify-content: center
@@ -27,8 +31,20 @@
 .hero-image{
     width: 100%;
 }
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
 
-/* @media only screen and (max-width: 425px){
-    .bio-body{
-    }
-} */
+.titles-and-my-self-img{
+    display: flex;
+    flex-direction: row;
+    height: 185px;
+    justify-content: space-between;
+}
+
+#self-img{
+    height: 184%;
+    padding: 10px 0;
+}
