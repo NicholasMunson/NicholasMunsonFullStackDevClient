@@ -1,19 +1,22 @@
 .body{
     padding: 1%  5%;
     padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .paragraph{
     text-align: left;
 }
 
+.paragraph-one{
+    width: 75%;
+}
+
 .concept-list {
     display: flex;
     justify-content: center;
-}
-
-.concept-list-1{
-    padding-top: 65px;
 }
 
 .learning-list{
@@ -40,11 +43,47 @@
 .titles-and-my-self-img{
     display: flex;
     flex-direction: row;
-    height: 185px;
+    height: 68px;
     justify-content: space-between;
 }
 
 #self-img{
-    height: 184%;
-    padding: 10px 0;
+    height: 465%;
+    padding: 20px 0;
+    float: right;
+}
+
+@media only screen and (max-width: 1024px){
+    .paragraph-one {
+        width: 67%;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .paragraph-one {
+        width: 68%;
+    }
+    #self-img{
+        height: 376%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    #self-img{
+        height: 150%;
+    }
+    .paragraph-one {
+        width: 100%;
+    }
+    .titles-and-my-self-img{
+        height: 130px;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+    #self-img{
+        height: 130%;
+    }
 }

@@ -8,22 +8,22 @@ return(
         <div className="titles-and-my-self-img">
             <div className="titles">
                 <h1 className='title'>Nicholas Munson Bio</h1>
-                <h3>Bio.Summery</h3>
-                <p className="paragraph">After many years in the restaurant business and earning an Associates Degree in Communications, 
-                I decided it was time for a change. I knew I wanted to be challenged but creative at the same time. 
-                I found coding after a friend showed me a website he had built. 
-                I immediately fell in love with HTML and CSS. I loved the feeling of
-                being able to move things around on the page. Since then, I taught myself some things like JavaScript (ES6), 
-                HTML5 standards, CSS3. I have also attended and graduated the web development immersive program
-                at Galvanize Platt. It was at Galvanize I discovered just how powerful being a developer could actually be. 
-                I learned to learn at Galvanize a tool I am forever grateful for because of the potential I now have to learn whatever
-                language or technique that is needed to get the job done. After learning to learn I was able to quickly pick up and use Full-Stack concepts like...
-                </p>
             </div>
             <div className="my-self-img">
                 <img id="self-img" src={require("../images/self-image.jpg")} alt="image of Nicholas Munson full stack developer " />
             </div>
         </div>
+        <h3>Bio.Summery</h3>
+        <p className="paragraph paragraph-one">After many years in the restaurant business and earning an Associates Degree in Communications, 
+        I decided it was time for a change. I knew I wanted to be challenged but creative at the same time. 
+        I found coding after a friend showed me a website he had built. 
+        I immediately fell in love with HTML and CSS. I loved the feeling of
+        being able to move things around on the page. Since then, I taught myself some things like JavaScript (ES6), 
+        HTML5 standards, CSS3. I have also attended and graduated the web development immersive program
+        at Galvanize Platt. It was at Galvanize I discovered just how powerful being a developer could actually be. 
+        I learned to learn at Galvanize a tool I am forever grateful for because of the potential I now have to learn whatever
+        language or technique that is needed to get the job done. After learning to learn I was able to quickly pick up and use Full-Stack concepts like...
+        </p>
         <div className="concept-list concept-list-1">
             <ul>
                 <li>Git and Github</li>
