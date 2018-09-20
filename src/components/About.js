@@ -15,7 +15,7 @@ return(
         HTML5 standards, CSS3. I have also attended and graduated the web development immersive program
         at Galvanize Platt. It was at Galvanize I discovered just how powerful being a developer could actually be. 
         I learned to learn at Galvanize a tool I am forever grateful for because of the potential I now have to learn whatever
-        language or technique that is needed to get the job done. After learning to learn I was able to quickly pick up and use Full-Stack concepts like,
+        language or technique that is needed to get the job done. After learning to learn I was able to quickly pick up and use Full-Stack concepts like...
         </p>
         <div className="concept-list">
             <ul>
@@ -25,7 +25,7 @@ return(
                 <li>Scope</li>
                 <li>Responsive design</li>
                 <li>Creating and manipulating RESTful API's</li>
-                <li>Frontend Frameworks like React, Vue, and React-Native</li>
+                <li>Frontend Frameworks like React.js, Vue.js, and React-Native</li>
                 <li>Dom manipulation</li>
                 <li>JSON</li>
                 <li>Full CRUD operations with Ajax</li>
@@ -48,8 +48,8 @@ return(
             </ul>
         </div>
         <p className="paragraph">
-        Since graduation I have found that I have a thirst for learning so I  fill my time in between
-        filling out applications, and finding freelance work with learning new languages. 
+        Since graduation, I have found that I have a thirst for learning, so I fill my time in between
+        filling out applications and finding freelance work with learning new languages. 
         I am currently learning a few new languages and getting a refresher on some others from the list below.
         </p>
         <div className="learning-list">
