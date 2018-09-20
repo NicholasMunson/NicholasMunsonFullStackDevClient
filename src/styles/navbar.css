@@ -6,8 +6,11 @@
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid #eaeaeb;
-    height: 70px;
-    padding: 0 10%
+    height: 100px;
+    width: 100%;
+    padding: 0 5%;
+    position: fixed;
+    background-color: white;
 }
 .nav-container{
     display: flex;
@@ -16,13 +19,25 @@
 }
 
 #nm-logo{
-    height: 54px;
+    height: 80px;
     margin: 10px 0px;
 }
 
 .a-text{ 
     margin: 2px;
-    padding: 21px 0 0 21px;
+    padding: 40px 0 0 21px;
     font-size: 2rem;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 425px){
+    #nm-logo{
+        height: 54px;
+    }
+    .header-container{
+        height: 70px;
+    }
+    .a-text{
+        padding: 21px 0 0 21px;
+    }
 }

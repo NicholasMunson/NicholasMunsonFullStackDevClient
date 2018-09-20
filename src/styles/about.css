@@ -1,5 +1,6 @@
 .bio-body{
-    padding: 1%  10%;
+    padding: 1%  5%;
+    padding-top: 110px;
 }
 
 .paragraph{
@@ -27,8 +28,7 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 425px){
+/* @media only screen and (max-width: 425px){
     .bio-body{
-        padding-left: 45px;
     }
-}
+} */
