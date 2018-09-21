@@ -43,12 +43,13 @@
 .titles-and-my-self-img{
     display: flex;
     flex-direction: row;
-    height: 68px;
+    height: 80px;
     justify-content: space-between;
 }
 
 #self-img{
-    height: 465%;
+    max-width: 53%;
+    height: auto;
     padding: 20px 0;
     float: right;
 }
@@ -56,6 +57,9 @@
 @media only screen and (max-width: 1024px){
     .paragraph-one {
         width: 67%;
+    }
+    #self-img{
+        max-width: 62%;
     }
 
 }
@@ -65,13 +69,13 @@
         width: 68%;
     }
     #self-img{
-        height: 376%;
+        max-width: 50%;
     }
 }
 
 @media only screen and (max-width: 425px){
     #self-img{
-        height: 150%;
+        max-width: 70%;
     }
     .paragraph-one {
         width: 100%;
@@ -84,6 +88,6 @@
 
 @media only screen and (max-width: 320px){
     #self-img{
-        height: 130%;
+        max-width: 80%;
     }
 }

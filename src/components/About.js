@@ -4,14 +4,16 @@ import "../styles/about.css"
 function About(props){
 return(
     <div className="body">
-        <img className="hero-image" src={require("../images/imageedit_3_4072812862.jpg")} alt="keyboard" />
+        <figure>
+            <img className="hero-image" src={require("../images/imageedit_3_4072812862.jpg")} alt="keyboard" />
+        </figure>       
         <div className="titles-and-my-self-img">
             <div className="titles">
                 <h1 className='title'>Nicholas Munson Bio</h1>
             </div>
-            <div className="my-self-img">
+            <figure className="my-self-img">
                 <img id="self-img" src={require("../images/self-image.jpg")} alt="image of Nicholas Munson full stack developer " />
-            </div>
+            </figure>
         </div>
         <h3>Bio.Summery</h3>
         <p className="paragraph paragraph-one">After many years in the restaurant business and earning an Associates Degree in Communications, 
