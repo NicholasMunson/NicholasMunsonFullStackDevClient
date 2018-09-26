@@ -12,7 +12,7 @@ return(
                 <h1 className='title'>Nicholas Munson Bio</h1>
             </div>
             <figure className="my-self-img">
-                <img id="self-img" src={require("../images/self-image.jpg")} alt="image of Nicholas Munson full stack developer " />
+                <img id="self-img" src={require("../images/self-image.jpg")} alt="Nicholas Munson full stack developer " />
             </figure>
         </div>
         <h3>Bio.Summery</h3>

@@ -5,26 +5,31 @@ import Navbar from '../src/components/Navbar.js'
 import About from '../src/components/About.js'
 import Projects from '../src/components/Projects.js'
 import Contact from '../src/components/Contact.js'
-
+import Construction from './components/Construction.js'
 
 class App extends Component {
     constructor(props) {
         super(props)
         this.state = {
+            construction: false
         }
     }
 
+
     render() {
         return (
-            <Router>
-            <div className="App">
-                <Navbar />
-                <Route exact path="/Bio" component={About}/>
-                <Route path="/Projects" component={Projects}/>
-                <Route path="/Contact" component={Contact}/>
-            </div>
-            </Router>
+            <Construction />
+            
+            // <Router>
+            // <div className="App">
+            //     <Navbar />
+            //     <Route exact path="/Bio" component={About}/>
+            //     <Route path="/Projects" component={Projects}/>
+            //     <Route path="/Contact" component={Contact}/>
+            // </div>
+            // </Router>
         );
+        
     }
 }
 

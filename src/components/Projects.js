@@ -1,20 +1,21 @@
-import React from "react"
+import React, {Component} from "react"
 import "../styles/projects.css"
 
-function Projects (props) {
-    return(
-        <div className="body">
-            <p>Hello from the Projects section</p>
-            <p>Hello from the Projects section</p>
-            <p>Hello from the Projects section</p>
-            <p>Hello from the Projects section</p>
-            <p>Hello from the Projects section</p>
-            <p>Hello from the Projects section</p>
-            <p>Hello from the Projects section</p>
-            <p>Hello from the Projects section</p>
-        </div>
+class Projects extends Component{
+    projectData = () => {
+        fetch("../API/projects.json")
+        .then(response => response.json())
+        .then(console.log)
+    }
 
-    )
+
+    render(){
+        return(
+            <div className="body">
+                <p>Hello from the Projects section</p>
+            </div>
+        )
+    }
 }
 
 export default Projects 
