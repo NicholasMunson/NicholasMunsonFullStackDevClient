@@ -29,7 +29,7 @@ function Construction(props){
                     <figcaption className="construction-text">Gmail</figcaption>
                 </figure>
                 <figure>
-                    <a href="https://drive.google.com/file/d/1ABBkmt4tpUYFlCQA-kRVm1tTN_yAXAZp/view?usp=sharing" download target="_blank">
+                    <a href="https://drive.google.com/file/d/1RlxJNajWk6uYevxs_fEDO0wHEvQh4YNg/view?usp=sharing" download target="_blank">
                         <img className="icon"  src={require("../images/resume.png")} alt="Resume Icon" />
                     </a>
                     <figcaption className="construction-text">Resume</figcaption>
