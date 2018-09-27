@@ -4,6 +4,17 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.icon-cluster{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+
 .construction-container{
     align-content: center;
     padding: 0 10%;
@@ -27,13 +38,20 @@ section{
     height: auto;
     z-index: -1;
 }
+
 @media only screen and (max-width: 425px){
+    .icon{
+        width: 80%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .icon-cluster{
+        display: flex;
+        justify-content: space-evenly;
+    }
     section{
         flex-direction: column;
-    }
-    .icon{
-        width: 20%;
-        height: auto
+        padding-top: 0px;
     }
 
 }
