@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
 import { BrowserRouter as Router, Route } from "react-router-dom"
-import './App.css';
-import Navbar from '../src/components/Navbar.js'
-import About from '../src/components/About.js'
-import Projects from '../src/components/Projects.js'
-import Contact from '../src/components/Contact.js'
-import Construction from './components/Construction.js'
+import '../styles/App.css';
+import Navbar from './Navbar.js'
+import About from './About.js'
+import Projects from './Projects.js'
+import Contact from './Contact.js'
+import Construction from './Construction.js'
 
 class App extends Component {
     constructor(props) {
