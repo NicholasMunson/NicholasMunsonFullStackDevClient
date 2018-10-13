@@ -5,7 +5,7 @@ import Navbar from './Navbar.js'
 import About from './About.js'
 import Projects from './Projects.js'
 import Contact from './Contact.js'
-import Construction from './Construction.js'
+// import Construction from './Construction.js'
 
 class App extends Component {
     constructor(props) {

@@ -1,6 +1,6 @@
 import React, {Component} from "react"
+const URL = "https://api.myjson.com/bins/5z7k0"
 
-// const API = url("../API/projects.json")
 
 
 class Projects extends Component{
@@ -11,17 +11,18 @@ class Projects extends Component{
         })
     }
 
-    componentDidMount(){
-        const URL =   ("")
-        // fetch(API)
-        // .then(res => res.json())
-        // .then((data) => {
-        //     console.log('data:', data);
-        //     })    
+    async componentDidMount(){
+        const res = await fetch(URL)
+        const data = await res.json()
+        await this.setState({
+            data: data
+        })
+    
     }
 
 
     render(){
+        console.log(this.state)
         return(
             <div className="body">
                 <p>Hello from the Projects section</p>
