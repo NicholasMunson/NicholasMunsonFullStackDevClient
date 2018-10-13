@@ -4,6 +4,7 @@ import "../styles/about.css"
 function About(props){
 return(
     <div className="body">
+    <a href="www.google.com">Goolge!</a>
         <figure>
             <img className="hero-image" src={require("../images/imageedit_3_4072812862.jpg")} alt="keyboard" />
         </figure>       
@@ -71,7 +72,7 @@ return(
                 <li>Webkit</li>
             </ul>
             <ul className="li-list">
-                <li>SaaS</li>
+                <li>Sass</li>
                 <li>MERN stack</li>
             </ul>
         </div>

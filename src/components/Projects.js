@@ -1,11 +1,23 @@
 import React, {Component} from "react"
-import "../styles/projects.css"
+
+const API = url("../API/projects.json")
+
 
 class Projects extends Component{
-    projectData = () => {
-        fetch("../API/projects.json")
-        .then(response => response.json())
-        .then(console.log)
+    constructor(props){
+        super(props)
+        this.state = ({
+            data: "",
+        })
+    }
+
+    componentDidMount(){
+        console.log(API)
+        // fetch(API)
+        // .then(res => res.json())
+        // .then((data) => {
+        //     console.log('data:', data);
+        //     })    
     }
 
 
