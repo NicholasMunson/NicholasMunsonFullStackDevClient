@@ -1,6 +1,6 @@
 import React, {Component} from "react"
-import ProjectDataCard from "./ProjectDataCard";
-const URL = "https://api.myjson.com/bins/5z7k0"
+import ProjectDataCardContainer from "./ProjectDataCardContainer";
+const URL = "https://api.myjson.com/bins/bt7qo"
 
 
 
@@ -16,7 +16,7 @@ class Projects extends Component{
         const res = await fetch(URL)
         const data = await res.json()
         await this.setState({
-            data: data
+            data: data.projects
         })
     
     }
@@ -26,7 +26,7 @@ class Projects extends Component{
         let currentState = this.state.data
         return(
             <div className="body">
-                <ProjectDataCard currentState={currentState} />
+                <ProjectDataCardContainer currentState={currentState} />
             </div>
         )
     }
