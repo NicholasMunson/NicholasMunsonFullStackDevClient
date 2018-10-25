@@ -12,12 +12,18 @@ const ProjectCard = (props) => {
                 <h1>{projects.name}</h1>
             </div>
             <div className="sections-container">
-                <section className="left-card-section">  
-                    <p className="project-description" >{projects.description}</p>    
+                <section className="left-card-section"> 
+                    <div>
+                        <h4>About {projects.name}</h4> 
+                        <p className="project-description" >{projects.description}</p> 
+                    </div>   
                     <p className="project-links"> <a href={projects.linkFrontend}>Check out my frontend code here </a></p> 
                 </section>
                 <section className="right-card-section"> 
-                    <p className="project-tech">{projects.tech}</p>      
+                    <div>
+                        <h4>Tech Used</h4>
+                        <p className="project-tech">{projects.tech}</p> 
+                    </div>     
                     {backendLink}
                 </section>
             </div>
