@@ -27,4 +27,19 @@
 
 .sections-container{
     display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.left-card-section{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-card-section{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
