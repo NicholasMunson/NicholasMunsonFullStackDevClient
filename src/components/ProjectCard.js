@@ -4,7 +4,6 @@ import '../styles/projectCard.css'
 
 const ProjectCard = (props) => {
     let projects = props.projects
-    console.log(projects.img)
     return (
         <div className="card">
             <div className="img-container">
