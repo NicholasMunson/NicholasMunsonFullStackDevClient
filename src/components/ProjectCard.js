@@ -4,7 +4,8 @@ import '../styles/projectCard.css'
 
 const ProjectCard = (props) => {
     let projects = props.projects
-    console.log()
+    console.log(projects.linkBackend)
+    const backendLink = !projects.linkBackend ? null : <p className="project-links"> <a href={projects.linkBackend}> Backend code here</a> </p>
     return (
         <div className="card">
             <div className="img-container">
@@ -18,7 +19,7 @@ const ProjectCard = (props) => {
                 </section>
                 <section className="right-card-section"> 
                     <p className="project-tech">{projects.tech}</p>      
-                    <p className="project-links"> <a href={projects.linkBackend}> Backend code here</a> </p>
+                    {backendLink}
                 </section>
             </div>
             
