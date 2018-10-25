@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/projectCard.css'
 
 
 const ProjectCard = (props) => {
@@ -16,6 +17,7 @@ const ProjectCard = (props) => {
             </section>
             <section>
                 <p>{projects.description}</p>
+
             </section>
             
         </div>
