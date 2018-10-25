@@ -4,7 +4,6 @@ import '../styles/projectCard.css'
 
 const ProjectCard = (props) => {
     let projects = props.projects
-    console.log(projects.linkBackend)
     const backendLink = !projects.linkBackend ? null : <p className="project-links"> <a href={projects.linkBackend}> Backend code here</a> </p>
     return (
         <div className="card">
