@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .card{
     width: 44%;
     height: auto;
@@ -29,17 +30,33 @@
     display: flex;
     justify-content: space-evenly;
     height: 300px;
+    width: auto;
 }
 
 .left-card-section{
+    height: 100%;
+    width: 284%;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
+
+.project-name{
+    height: 30px;
+}
+
 .right-card-section{
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
+    width: 210%;
+}
+
+.project-description, .project-tech{
+    height: 18rem;
+    overflow: scroll;
 }

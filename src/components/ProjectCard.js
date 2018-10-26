@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
             </div>
             <div className="sections-container">
                 <section className="left-card-section"> 
-                    <div>
+                    <div className="project-name">
                         <h4>About {projects.name}</h4> 
                         <p className="project-description" >{projects.description}</p> 
                     </div>   
