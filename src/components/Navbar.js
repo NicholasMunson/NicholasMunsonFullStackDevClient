@@ -6,10 +6,10 @@ class Navbar extends Component {
     render() {
         return( 
                 <div className="header-container"> 
-                    <Link to="/" className="title"><img id="nm-logo" src={require("../images/NM.png")} alt="Nicholas Munson logo"/></Link>
+                    <Link to="/" className="title" ><img id="nm-logo" src={require("../images/ntmlogo1000.png")} alt="Nicholas Munson logo"/></Link>
                     <div className="menu"> 
                         <div className="nav-container">
-                            <Link  className="text, a-text" to="/Bio">Bio</Link>
+                            <a className="text a-text" href="#about-section">bio</a> 
                             <Link  className="text a-text" to="/Projects">Projects</Link>
                             <Link  className="text a-text" to="/Contact" >Contact</Link>   
                         </div>

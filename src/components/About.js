@@ -3,7 +3,7 @@ import "../styles/about.css"
 
 function About(props){
 return(
-    <div className="body">
+    <div className="body" id="about-section">
         <figure>
             <img className="hero-image" src={require("../images/imageedit_3_4072812862.jpg")} alt="keyboard" />
         </figure>       

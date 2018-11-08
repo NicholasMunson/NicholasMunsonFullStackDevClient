@@ -5,6 +5,7 @@ import Navbar from './Navbar.js'
 import About from './About.js'
 import Projects from './Projects.js'
 import Contact from './Contact.js'
+import Landing from './Landing.js'
 // import Construction from './Construction.js'
 
 class App extends Component {
@@ -21,9 +22,13 @@ class App extends Component {
             <Router>
                 <div className="App">
                     <Navbar />
-                    <Route exact path="/Bio" component={About}/>
+                    <Landing />
+                    <About />
+                    <Projects />
+                    <Contact />
+                    {/* <Route exact path="/Bio" component={About}/>
                     <Route path="/Projects" component={Projects}/>
-                    <Route path="/Contact" component={Contact}/>
+                    <Route path="/Contact" component={Contact}/> */}
                 </div>
             </Router>
         );
