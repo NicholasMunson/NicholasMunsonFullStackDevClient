@@ -4,14 +4,11 @@ import '../styles/landing.css'
 function Landing(props){
 return(
     <div className="body">
-        <p>Hello from the Landing section</p>
-        <p>Hello from the Landing section</p>
-        <p>Hello from the Landing section</p>
-        <p>Hello from the Landing section</p>
-        <p>Hello from the Landing section</p>
-        <p>Hello from the Landing section</p>
-        <p>Hello from the Landing section</p>
-        <p>Hello from the Landing section</p>
+        <div className="video-container">
+            <video id="background-video" loop autoPlay>
+                <source src={require("../videos/ntmdev.com_intro_video.mp4")}/>
+            </video>
+        </div>
     </div>
 
 )

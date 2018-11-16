@@ -9,7 +9,7 @@ class Navbar extends Component {
                     <Link to="/" className="title" ><img id="nm-logo" src={require("../images/ntmlogo1000.png")} alt="Nicholas Munson logo"/></Link>
                     <div className="menu"> 
                         <div className="nav-container">
-                            <a className="text a-text" href="#about-section">bio</a> 
+                            <a className="text a-text" href="#about-section">Bio</a> 
                             <Link  className="text a-text" to="/Projects">Projects</Link>
                             <Link  className="text a-text" to="/Contact" >Contact</Link>   
                         </div>
