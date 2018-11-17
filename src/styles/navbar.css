@@ -40,6 +40,7 @@ ul{
     background-color: #5e5759;
     width: 100px;
     height: 50px;
+    border: solid 1px #BDD990;
 }
 
 @media only screen and (max-width: 425px){

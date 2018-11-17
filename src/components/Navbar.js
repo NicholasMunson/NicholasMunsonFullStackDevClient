@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Link } from "react-router-dom"
+import { FaBars, FaClose } from 'react-icons/fa';
 import "../styles/navbar.css"
 import ResponsiveMenu from 'react-responsive-navbar';
 
@@ -9,8 +9,8 @@ class Navbar extends Component {
         return( 
             <ResponsiveMenu
                 className="header-container"
-                menuOpenButton={<div />}
-                menuCloseButton={<div />}
+                menuOpenButton={<FaBars size={30} color="MediumPurple" />}
+                menuCloseButton={<FaClose size={30} color="MediumPurple" />}
                 changeMenuOn="500px"
                 largeMenuClassName="large-menu-classname"
                 smallMenuClassName="small-menu-classname"
