@@ -42,6 +42,9 @@ ul{
     height: 50px;
     border: solid 1px #BDD990;
 }
+.small-menu-classname{
+    margin: 35px 0px;
+}
 
 @media only screen and (max-width: 425px){
     #nm-logo{
@@ -49,8 +52,21 @@ ul{
     }
     .header-container{
         height: 70px;
+        height: 70px;
+        justify-content: flex-start;
+        padding: 0;
     }
     .a-text{
         padding: 21px 0 0 21px;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: right;
+        color: aliceblue;
+    }
+    .manu-container{
+        width: 100%;
     }
 }
