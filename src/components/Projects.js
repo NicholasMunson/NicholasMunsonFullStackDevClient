@@ -25,7 +25,7 @@ class Projects extends Component{
     render(){
         let currentState = this.state.data
         return(
-            <div className="body">
+            <div className="body" id="projects">
                 <ProjectDataCardContainer currentState={currentState} />
             </div>
         )
