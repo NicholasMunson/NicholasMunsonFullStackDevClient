@@ -8,8 +8,7 @@ class Navbar extends Component {
     render() {
         return( 
             <div className="header-container">
-                <ResponsiveMenu
-                    className="menu-container"             
+                <ResponsiveMenu            
                     menuOpenButton={<FaBars size={30} color="#BDD990" />}
                     menuCloseButton={<FaRegWindowClose size={30} color="#BDD990" />}
                     changeMenuOn="425px"
@@ -18,7 +17,7 @@ class Navbar extends Component {
                     menu={
                 
                         <ul className="nav-container">
-                            <li><a to="/" className="text a-text" href="#landing" >Home</a></li>
+                            <li><a className="text a-text" href="#landing" >Home</a></li>
                             <li><a className="text a-text" href="#about-section">Bio</a> </li>
                             <li><a className="text a-text" href="#projects">Projects</a></li>
                             <li><a className="text a-text" href="#contact" >Contact</a></li>
