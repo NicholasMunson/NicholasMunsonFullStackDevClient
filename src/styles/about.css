@@ -36,6 +36,7 @@
 
 .hero-image{
     width: 100%;
+    padding: 6px;
 }
 .titles{
     display: flex;

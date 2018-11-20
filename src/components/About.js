@@ -5,7 +5,7 @@ function About(props){
 return(
     <div className="body" id="about-section">
         <figure>
-            <img className="hero-image" src={require("../images/imageedit_3_4072812862.jpg")} alt="keyboard" />
+            <img className="hero-image media-container" src={require("../images/imageedit_3_4072812862.jpg")} alt="keyboard" />
         </figure>       
         <div className="titles-and-my-self-img">
             <div className="titles">
@@ -75,7 +75,7 @@ return(
                 <li>MERN stack</li>
             </ul>
         </div>
-        <img className="hero-image" src={require("../images/imageedit_6_8426369842.jpg")} alt="DJ equipment" />
+        <img className="hero-image media-container" src={require("../images/imageedit_6_8426369842.jpg")} alt="DJ equipment" />
         <h3>Bio.Life_Outside_Coding</h3>
         <p className="paragraph">
         Outside of coding I enjoy many things and have lots of hobbies. I have a family consisting of an amazing women named Hannah that somehow
@@ -102,7 +102,7 @@ return(
                 <li>In the future I would like to start blogging and podcasting</li>
             </ul>
         </div>
-        <img className="hero-image" src={require("../images/imageedit_9_7830771010.jpg")} alt="handshake"  />
+        <img className="hero-image media-container" src={require("../images/imageedit_9_7830771010.jpg")} alt="handshake"  />
         <h3>Bio.Why_you_should_hire_me</h3>
         <p className="paragraph ">
             Are you looking for a moldable, fun, hard working, self motivated, JavaScript 
@@ -135,7 +135,7 @@ return(
             Combining these soft skills with my tech chops I believe that I would be a valuable asset to any company willing 
             to take a chance on me. So lets build something big, something amazing, and something dynamic! I look forward to hearing from you!
         </p>
-        <img className="hero-image" src={require("../images/imageedit_7_7468252971.jpg")} alt="team puts their fists in to celebrate" />
+        <img className="hero-image media-container" src={require("../images/imageedit_7_7468252971.jpg")} alt="team puts their fists in to celebrate" />
     </div>
 
 )
