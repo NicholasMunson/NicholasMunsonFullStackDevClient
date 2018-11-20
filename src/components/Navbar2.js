@@ -16,20 +16,25 @@ class Navbar extends Component {
                 largeMenuClassName="large-menu"
                 smallMenuClassName="small-menu"
                 menu={
-                    <ul className="nav-container">
-                            <li>
-                                <a className="text a-text" href="#landing" >Home</a>
-                            </li>
-                            <li>
-                                <a className="text a-text" href="#about-section">Bio</a> 
-                            </li>
-                            <li>
-                                <a className="text a-text" href="#projects">Projects</a>
-                            </li>
-                            <li>
-                                <a className="text a-text" href="#contact" >Contact</a>
-                            </li>
+                    <div className="Navbar">
+                        <div className="ntmdev-container">
+                            <p className="ntmdev-logo" >NTMDev.com</p>
+                        </div>
+                        <ul className="nav-container">
+                                <li>
+                                    <a className="text a-text" href="#landing" >Home</a>
+                                </li>
+                                <li>
+                                    <a className="text a-text" href="#about-section">Bio</a> 
+                                </li>
+                                <li>
+                                    <a className="text a-text" href="#projects">Projects</a>
+                                </li>
+                                <li>
+                                    <a className="text a-text" href="#contact" >Contact</a>
+                                </li>
                         </ul>
+                    </div>
                 }
             />  
         </div>
