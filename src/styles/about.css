@@ -27,14 +27,14 @@
 .li-list{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
 }
 
 .hero-image{
     width: 100%;
     padding: 6px;
 }
+
 .titles{
     display: flex;
     flex-direction: column;
