@@ -8,6 +8,9 @@
     color: #FFFFFA;
     font-family: monospace;
 }
+h1{
+    font-family: monospace;
+}
 
 .paragraph{
     text-align: left;

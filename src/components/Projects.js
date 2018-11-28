@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from "react"
+import React, {Component } from "react"
 import ProjectDataCardContainer from "./ProjectDataCardContainer";
 const URL = "https://api.myjson.com/bins/bt7qo"
 
