@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
         <div className="card">
             <div className="img-container">
                 <img className="project-img" src={projects.img} alt="" />
-                <h1>{projects.name}</h1>
+                <p className="project-title">{projects.name}</p>
             </div>
             <div className="sections-container">
                 <section className="left-card-section"> 
