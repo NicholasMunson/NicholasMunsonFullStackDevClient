@@ -1,14 +1,14 @@
 import React from "react"
-import '../styles/contact.css'
+import '../styles/construction.css'
 
 function Contact(props){
     return( 
         <div className="construction-container">
             <div className="top-imgs">
                 <img  id="self" src={require("../images/self-img-no-background.png")} alt="nicholas munson" />
-                <img  id="speech-bubble" src={require("../images/constructionMessage.png")} alt="speech bubble" />
+                <img  id="speech-bubble" src={require("../images/thankyouNtmdev.com.png")} alt="speech bubble" />
             </div>
-            <div className="icon-cluster">
+            <div className="icon-cluster media-container">
                 <section>
                     <figure>
                         <a href="https://github.com/NicholasMunson" target="_blank">
