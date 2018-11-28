@@ -26,7 +26,7 @@ return(
         I learned to learn at Galvanize a tool I am forever grateful for because of the potential I now have to learn whatever
         language or technique that is needed to get the job done. After learning to learn I was able to quickly pick up and use Full-Stack concepts like...
         </p>
-        <div className="concept-list concept-list-1">
+        <div className="concept-list concept-list-1 paragraph">
             <ul>
                 <li>Git and Github</li>
                 <li>NPM</li>
@@ -56,7 +56,7 @@ return(
                 <li>Agile methodology.</li>
             </ul>
         </div>
-        <p className="paragraph">
+        {/* <p className="paragraph">
         Since graduation, I have found that I have a thirst for learning, so I fill my time in between
         filling out applications and finding freelance work with learning new languages. 
         I am currently learning a few new languages and getting a refresher on some others from the list below.
@@ -74,7 +74,7 @@ return(
                 <li>Sass</li>
                 <li>MERN stack</li>
             </ul>
-        </div>
+        </div> */}
         <img className="hero-image media-container" src={require("../images/imageedit_6_8426369842.jpg")} alt="DJ equipment" />
         <h3>Bio.Life_Outside_Coding</h3>
         <p className="paragraph">
@@ -135,7 +135,6 @@ return(
             Combining these soft skills with my tech chops I believe that I would be a valuable asset to any company willing 
             to take a chance on me. So lets build something big, something amazing, and something dynamic! I look forward to hearing from you!
         </p>
-        <img className="hero-image media-container" src={require("../images/imageedit_7_7468252971.jpg")} alt="team puts their fists in to celebrate" />
     </div>
 
 )

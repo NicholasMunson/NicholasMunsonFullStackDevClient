@@ -1,4 +1,4 @@
-import React, {Component} from "react"
+import React, {Component, Fragment} from "react"
 import ProjectDataCardContainer from "./ProjectDataCardContainer";
 const URL = "https://api.myjson.com/bins/bt7qo"
 
@@ -24,9 +24,11 @@ class Projects extends Component{
 
     render(){
         let currentState = this.state.data
-        return(
+        return(             
             <div className="body" id="projects">
-                <ProjectDataCardContainer currentState={currentState} />
+                <img className="hero-image media-container" src={require("../images/codeCompiled.jpg")} alt="computer with headphones" />              
+                <h1 className='title'>Projects</h1>
+                    <ProjectDataCardContainer currentState={currentState} />
             </div>
         )
     }
