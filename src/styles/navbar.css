@@ -1,5 +1,6 @@
 .title{
     left: 50px;
+    color: #BDD990;
 }
 .header-container{
     display: flex;
@@ -23,7 +24,6 @@
 a:focus, a:hover {
     color:  #BDD990;
     text-decoration: none;
-    font-size: 3rem;
 }
 .small-menu, .large-menu {
     background-color: #22181b;
@@ -63,7 +63,7 @@ ul{
     font-size: 6rem;
     font-family: monospace;
     padding-top: 8px;
-    color: #5e5759;
+    color: #BDD990;
 }
 
 @media only screen and (max-width: 500px){
