@@ -1,21 +1,22 @@
 .card-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card{
     width: 44%;
+    margin: 0px;
+    margin-top: 15px;
+    width: 45%;
     height: auto;
-    background-color: cadetblue;
-    border: 2px inset black;
-    border-radius: 13px;
-    margin: 25px;
-    box-shadow: 4px 4px 10px grey;
+    background-color: #5E5759;
+    outline: solid #BDD990;
+    margin-bottom: 70px;
 }
 .img-container{
     display: flex;
     background-color: black;
-    border-radius: 10px;
     height: 200px;
 }
 .project-img{
@@ -57,6 +58,6 @@
 }
 
 .project-description, .project-tech{
-    height: 18rem;
+    height: 16rem;
     overflow: scroll;
 }
