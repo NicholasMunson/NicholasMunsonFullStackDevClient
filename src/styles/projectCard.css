@@ -7,7 +7,7 @@
 .card{
     width: 44%;
     margin: 0px;
-    margin-top: 15px;
+    margin-top: 25px;
     width: 45%;
     height: auto;
     background-color: #5E5759;
@@ -60,4 +60,20 @@
 .project-description, .project-tech{
     height: 16rem;
     overflow: scroll;
+}
+
+@media only screen and (max-width: 1024px){
+
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 425px){
+
+}
+
+@media only screen and (max-width: 320px){
+ 
 }
