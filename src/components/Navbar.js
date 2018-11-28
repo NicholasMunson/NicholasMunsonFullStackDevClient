@@ -25,16 +25,6 @@ class Navbar extends Component {
                     }
                 />
             </div>
-                // <div className="header-container"> 
-                //     <a to="/" className="title" ><img id="nm-logo" src={require("../images/ntmlogo1000.png")} alt="Nicholas Munson logo"/></a>
-                //     <div className="menu"> 
-                //         <div className="nav-container">
-                //             <a className="text a-text" href="#about-section">Bio</a> 
-                //             <a  className="text a-text" to="/Projects">Projects</a>
-                //             <a  className="text a-text" to="/Contact" >Contact</a>   
-                //         </div>
-                //     </div>
-                // </div>
         )
     }
 } 

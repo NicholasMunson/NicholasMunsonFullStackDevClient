@@ -4,11 +4,11 @@ import "../styles/construction.css"
 import "../styles/navbar.css"
 function Construction(props){
         return( 
-            <div className="construction-container">
-                <div className="top-imgs">
+            <div className="construction-container" id="contact">
+                {/* <div className="top-imgs">
                     <img  id="self" src={require("../images/self-img-no-background.png")} alt="nicholas munson" />
                     <img  id="speech-bubble" src={require("../images/constructionMessage.png")} alt="speech bubble" />
-                </div>
+                </div> */}
                 <div className="icon-cluster">
                     <section>
                         <figure>
