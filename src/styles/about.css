@@ -18,13 +18,7 @@
     width: 75%;
 }
 
-.concept-list {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-.learning-list{
+.concept-list, .learning-list {
     display: flex;
     justify-content: center;
     padding: 10px;

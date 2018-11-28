@@ -20,8 +20,10 @@
     padding: 0;
 }
 
-.large-menu{
-    
+a:focus, a:hover {
+    color:  #BDD990;
+    text-decoration: none;
+    font-size: 3rem;
 }
 .small-menu, .large-menu {
     background-color: #22181b;
