@@ -1,5 +1,6 @@
 .construction-text{
     font-family: monospace;
+    color: #BDD990;
 }
 
 .icon-cluster{
@@ -18,8 +19,15 @@
     align-content: center;
     padding: 0px 5% 10%;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: monospace;
     background-color: #22181c;
+
+}
+p{
+    text-align: left;
+    padding: 10px;
+    color: #FFFFFA;
+    font-size: 14px;
 }
 
 section{

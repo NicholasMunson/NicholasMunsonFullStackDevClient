@@ -6,6 +6,7 @@
 
 h4{
     color: #BDD990;
+    text-align: center;
 }
 
 .card{
@@ -34,7 +35,7 @@ h4{
 
 .sections-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 300px;
     width: auto;
 }

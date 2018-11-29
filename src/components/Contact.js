@@ -5,7 +5,8 @@ function Contact(props){
     return( 
         <div className="construction-container" id="contact">
             <div className="titles">
-                <h1 className='title'>Contact me below</h1>
+                <h1 className='title'>Contact Me</h1>
+                <p>Thank you for visiting NTMDev.com. Below are a few ways to contact me the best is by Gmail or LinkedIn.  </p>
             </div>
             <div className="icon-cluster media-container">
                 <section>

@@ -1,6 +1,7 @@
 .title{
     left: 50px;
     color: #BDD990;
+    text-align: left;
 }
 .header-container{
     display: flex;
