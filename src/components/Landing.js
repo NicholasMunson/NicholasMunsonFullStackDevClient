@@ -6,7 +6,7 @@ return(
     <div className="body" id="landing">
         <div className="media-container">
             <video className="background-and-border" loop autoPlay>
-                <source src={require("../videos/ntmdev.com_intro_video.mp4")}/>
+                <source src={require("https://drive.google.com/file/d/1WwgHqF1rgtct-0xUBfOfqADXCokAgKgz/view?usp=sharing")}/>
             </video>
         </div>
     </div>
