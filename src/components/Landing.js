@@ -7,7 +7,7 @@ function Landing(props){
 return(
     <div className="body" id="landing">
         <div className="media-container">
-            <video className="background-and-border" loop autoPlay controls>
+            <video className="background-and-border" loop autoPlay >
                 <source src={require("../videos/ntmdev.com_intro_video.mp4")} type="video/mp4" />
             </video>
         </div>
