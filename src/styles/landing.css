@@ -11,3 +11,11 @@
     padding: 1px 6px;
     margin-top: 5px;
 }
+
+.video{
+    height: 730px;
+    background-color: #5E5759;
+    outline: solid #BDD990;
+    padding: 4px 6px;
+
+}
