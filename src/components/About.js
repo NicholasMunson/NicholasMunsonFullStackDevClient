@@ -15,7 +15,7 @@ return(
                 <img id="self-img" src={require("../images/self-image.jpg")} alt="Nicholas Munson full stack developer " />
             </figure>
         </div>
-        <h3>Bio.Summery</h3>
+        <h3>Bio.Summary</h3>
         <p className="paragraph paragraph-one">After many years in the restaurant business and earning an Associates Degree in Communications, 
         I decided it was time for a change. I knew I wanted to be challenged but creative at the same time. 
         I found coding after a friend showed me a website he had built. 
