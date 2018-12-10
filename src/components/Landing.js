@@ -1,7 +1,5 @@
 import React from "react"
 import '../styles/landing.css'
-// const URL = "https://drive.google.com/file/d/1WwgHqF1rgtct-0xUBfOfqADXCokAgKgz/view?usp=sharing"
-// const intro = "../videos/ntmdev.com_intro_video.mp4"
 
 function Landing(props){
 return(
