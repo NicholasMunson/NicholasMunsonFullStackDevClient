@@ -19,3 +19,29 @@
     padding: 4px 6px;
 
 }
+@media only screen and (max-width: 1024px){
+    .video{
+        height: 523px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .video{
+        height: 395px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .video{
+        height: 220px;
+        padding: 4px 4px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .video{
+        height: 194px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .video{
+        height: 165px;
+    }
+}
