@@ -31,7 +31,7 @@ function Contact(props){
                         <figcaption className="construction-text">Gmail</figcaption>
                     </figure>
                     <figure className="contact-icon">
-                        <a href="https://drive.google.com/file/d/1gdkTz1ADv9teX5VF0_yRqNi4xIlSgyjQ/view?usp=sharing" download  rel="noopener noreferrer"  target="_blank">
+                        <a href="https://drive.google.com/file/d/1negiEzIBwq4dFqbnlppmyNmZykaGi6sm/view?usp=sharing" download  rel="noopener noreferrer"  target="_blank">
                             <img className="icon"  src={require("../images/resume.png")} alt="Resume Icon" />
                         </a>
                         <figcaption className="construction-text">Resume</figcaption>
