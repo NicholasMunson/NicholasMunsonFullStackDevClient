@@ -103,7 +103,7 @@ return(
             </ul>
         </div>
         <img className="hero-image media-container" src={require("../images/imageedit_9_7830771010.jpg")} alt="handshake"  />
-        <h3>Bio.Why_you_should_hire_me</h3>
+        <h3>Bio.Why_Hire_Me</h3>
         <p className="paragraph ">
             Are you looking for a moldable, fun, hard working, self motivated, JavaScript 
             loving developer?... because that's me. 
