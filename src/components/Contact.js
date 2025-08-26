@@ -2,11 +2,11 @@ import React from "react"
 import '../styles/contact.css'
 
 function Contact(props){
-    return( 
+    return(
         <div className="construction-container" id="contact">
             <div className="titles">
                 <h1 className='title'>Contact Me</h1>
-                <p>Thank you for visiting NTMDev.com. Below are a few ways to contact me the best is by Gmail or LinkedIn.  </p>
+                <p>Thank you for visiting ntmDev.com. Below are a few ways to contact me the best is by Gmail or LinkedIn.  </p>
             </div>
             <div className="icon-cluster media-container">
                 <section>
@@ -23,7 +23,7 @@ function Contact(props){
                         <figcaption className="construction-text">LinkedIn</figcaption>
                     </figure>
                 </section>
-                <section>    
+                <section>
                     <figure className="contact-icon">
                         <a href="mailto:Nicholas.T.Munson@gmail.com"  rel="noopener noreferrer"  target="_blank">
                             <img className="icon"  src={require("../images/gmail.png")} alt="G mail icon" />
@@ -31,7 +31,7 @@ function Contact(props){
                         <figcaption className="construction-text">Gmail</figcaption>
                     </figure>
                     <figure className="contact-icon">
-                        <a href="https://drive.google.com/file/d/1negiEzIBwq4dFqbnlppmyNmZykaGi6sm/view?usp=sharing" download  rel="noopener noreferrer"  target="_blank">
+                        <a href="https://drive.google.com/file/d/1_u-QMw-APHdxKxkGms3oYDJD3C4Oj9_9/view?usp=sharing" download  rel="noopener noreferrer"  target="_blank">
                             <img className="icon"  src={require("../images/resume.png")} alt="Resume Icon" />
                         </a>
                         <figcaption className="construction-text">Resume</figcaption>
@@ -42,4 +42,4 @@ function Contact(props){
     )
 }
 
-export default Contact 
+export default Contact
