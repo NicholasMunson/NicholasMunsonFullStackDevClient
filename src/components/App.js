@@ -22,15 +22,15 @@ class App extends Component {
         return (
             <Router>
                 <div className="App">
-                    <Navbar2 />
+                    {/* <Navbar2 />
                     <Landing />
                     <About />
-                    <Projects />
+                    <Projects /> */}
                     <Contact />
                 </div>
             </Router>
         );
-        
+
     }
 }
 
